@@ -1,0 +1,218 @@
+{
+  "whyUs": [
+    {
+      "title": "24/7 Support",
+      "description": "Our dispatch is not only capable of answering calls and making updates, they are well-trained and able to solve all uncommon situations and make proper decisions.",
+      "img": "../../img/carousel-",
+      "readMore": "#",
+      "applyNow": "#quote"
+    },
+    {
+      "title": "Monthly Bonuses",
+      "description": "We award monthly bonuses to drivers who perform exceptionally well. If you work hard and avoid violations, you could be among the top five drivers and receive a bonus.",
+      "img": "../../img/carousel-",
+      "readMore": "#",
+      "applyNow": "#quote"
+    },
+    {
+      "title": "Personal Dispatcher",
+      "description": " After signing up, you’ll fill out a questionnaire to determine your drive style. Based on your preferences, we assign a dispatcher who specializes in the type of loads you prefer.",
+      "img": "../../img/carousel-",
+      "readMore": "#",
+      "applyNow": "#quote"
+    },
+    {
+      "title": "Weekly Deposit",
+      "description": "We make weekly deposits. You can reach our accounting department to know the amount of your upcoming paycheck and which loads will be paid. A detailed report is sent weekly via email.",
+      "img": "../../img/carousel-",
+      "readMore": "#",
+      "applyNow": "#quote"
+    },
+    {
+      "title": "Absolute Transparency",
+      "description": "One of our main principles is honesty. You will receive all rate confirmations directly from the broker, ensuring transparency in all operations. This includes the broker’s name, phone number, and the rate of the load.",
+      "img": "../../img/carousel-",
+      "readMore": "#",
+      "applyNow": "#quote"
+    },
+    {
+      "title": "Flexible Schedule",
+      "description": "6.We value work-life balance. Our flexible scheduling accommodates your personal commitments, ensuring operational efficiency while respecting your personal time and well-being.",
+      "img": "../../img/carousel-",
+      "readMore": "#",
+      "applyNow": "#quote"
+    }
+  ],
+
+  "jobsBenefits": [
+    {
+      "title": "No Forced Dispatch",
+      "description": "Either you are an Owner-Operator or a Company driver, the dispatcher will call you and offer a load and it's up to you to decide whether you want to go for it or not. It's important to us that you take your time, analyze all the details of the load and then give an answer with full responsibility.",
+      "img": "../../img/carousel-",
+      "readMore": "#",
+      "applyNow": "#quote"
+    },
+    {
+      "title": "No Hidden Fees",
+      "description": "We have a list of all the fees possible that we are showing on the face-to-face interview. Nothing except that will ever come out of your paycheck.",
+      "img": "../../img/carousel-",
+      "readMore": "#",
+      "applyNow": "#quote"
+    },
+    {
+      "title": "Monthly Bonuses",
+      "description": "We do have monthly awards for the drivers that performed great during the month. If you work hard and don't get violations during a specified period, you are likely to get into the top five drivers of the month and get your bonus added to the following paycheck.",
+      "img": "../../img/carousel-",
+      "readMore": "#",
+      "applyNow": "#quote"
+    },
+    {
+      "title": "Absolute Transparency",
+      "description": "One of the main principles of the company is honesty. This is what we hear very often from our drivers when asking them for some feedback. You will get all the rate confirmations forwarded directly from the broker along with the broker's name, phone number and the rate of the load.",
+      "img": "../../img/carousel-",
+      "readMore": "#",
+      "applyNow": "#quote"
+    },
+    {
+      "title": "Personal Dispatcher",
+      "description": "Once you sign up with a company, you will fill out a questionnaire which will determine your drive style. According to preferences, you will be assigned a dispatcher who specializes in the type of loads you are looking for. However, after a trial period you can request to try another dispatcher and it will be totally normal. It's in our interest to have you guys working with a person that you are comfortable dealing with.",
+      "img": "../../img/carousel-",
+      "readMore": "#",
+      "applyNow": "#quote"
+    },
+    {
+      "title": "Weekly Deposit",
+      "description": "We make deposits every week. You can also reach our accounting and get the amount of upcoming pay-check and find out which loads will be paid. You will also receive a report every week via email with a detailed breakdown of all loads completed and deductions that occurred during the period.",
+      "img": "../../img/carousel-",
+      "readMore": "#",
+      "applyNow": "#quote"
+    },
+    {
+      "title": "24/7 Support",
+      "description": "Our dispatch is not only capable of answering calls and making updates, they are well-trained and able to solve all uncommon situations and make proper decisions.",
+      "img": "../../img/carousel-",
+      "readMore": "#",
+      "applyNow": "#quote"
+    },
+    {
+      "title": "Layover and Detention Pay",
+      "description": "In our company dispatch is working hard and fighting with a broker for every penny of your extra wait time at the pick up or delivery facilities.",
+      "img": "../../img/carousel-",
+      "readMore": "#",
+      "applyNow": "#quote"
+    }
+
+  ],
+  "jobDescription":[
+    {
+      "title": "SOLO Truck Driver",
+      "imgSlider": "../../img/job/carousel-",
+      "description": "SOLO truck driver job available. Weekly earnings up to $8000. Minimum 6 months driving experience required. Age 21 and above. Location within 100 miles radius from Alpharetta, GA. ",
+      "readMore": "/job/0",
+      "applyNow": "#quote",
+      "img": [
+        "../../img/job/solo/job-1.jpg",
+        "../../img/job/solo/job-2.jpg",
+        "../../img/job/solo/job-3.jpg"
+      ],
+      "averageGross": "8000",
+      "grossTime": "/Weekly Gross",
+      "payDetails": [
+        "We pay 26-32% of the gross (forward all rate confirmations from the broker)",
+        "24-7 dispatch",
+        "Quick and easy sign-up process",
+        "No hidden fees",
+        "No forced dispatch",
+        "Personal dispatcher",
+        "Accessible management",
+        "Weekly direct deposit",
+        "Layover and detention pay",
+        "Fast orientation"
+      ],
+      "requirements": [
+        "21 years old and over",
+        "Decent MVR (no more than 3 moving violations in the past 36 months)",
+        "Hometown within 100 miles radius from Alpharetta, GA",
+        "6 months minimum truck driving experience",
+        "Decent level of communication",
+        "Smartphone and Scanner app"
+      ]
+    },
+    {
+      "title": "TEAM Truck Driving",
+      "imgSlider": "../../img/job/carousel-",
+      "description": "TEAM truck driver position open. Average weekly gross: $12000. Start pay: 30% of gross. Minimum 6 months driving experience, age 21+. Home weekends optional. Communication skills and smartphone with scanner app necessary.",
+      "readMore": "/job/2",
+      "applyNow": "#quote",
+      "img": [
+        "../../img/job/team/job-1.jpg",
+        "../../img/job/team/job-2.jpg",
+        "../../img/job/team/job-3.jpg"
+      ],
+
+      "averageGross": "12000",
+      "grossTime": "/Weekly Gross",
+      "payDetails": [
+        "We pay: 30% of the gross on start",
+        "Forward all rate confirmations from the broker",
+        "Home weekends if requested",
+        "24-7 dispatch",
+        "Quick and easy sign-up process",
+        "No hidden fees",
+        "No forced dispatch",
+        "Personal dispatcher",
+        "Weekly direct deposit",
+        "Layover and detention pay",
+        "Fast orientation"
+      ],
+      "requirements": [
+        "21 years old and over",
+        "Decent MVR (no more than 3 moving violations in the past 36 months)",
+        "6 months minimum truck driving experience",
+        "Decent level of communication",
+        "Smartphone and Scanner app"
+      ]
+    },
+    {
+      "title": "Owner Operators",
+      "imgSlider": "../../img/job/carousel-",
+      "description": "Owner Operators position open at Hermes Express Inc. Earn up to $8000 weekly gross revenue. We pay 88% of gross revenue. Competitive insurance rates, fuel cards, and trailer rental provided. No forced dispatch, no-touch freight. Safety bonuses, weekly settlements. Must be 21+, with clean MVR and 2 years experience.",
+      "readMore": "/job/3",
+      "applyNow": "#quote",
+      "img": [
+        "../../img/job/owner/job-1.jpg",
+        "../../img/job/owner/job-2.jpg",
+        "../../img/job/owner/job-3.jpg"
+      ],
+      "averageGross": "8000",
+      "grossTime": "/Weekly Gross",
+      "payDetails": [
+        "Otr – we pay: 88% of gross revenue",
+        "Competitive insurance rates",
+        "Fuel cards",
+        "Trailer rental",
+        "Direct deposit",
+        "No forced dispatch",
+        "No-touch freight",
+        "Safety bonuses",
+        "Weekly settlements",
+        "Low truck to dispatch ratio",
+        "Long runs: east-west, north-south, midwest"
+      ],
+      "requirements": [
+        "At least 21 years old",
+        "Clean MVR (no more than 3 moving violations in the past 36 months)",
+        "Safely transport the merchandise under FMCSA regulations",
+        "No felony convictions within 7 years (no NYC)",
+        "2 years experience is a must (insurance company requirements)"
+      ]
+    }
+  ]
+
+
+}
+
+
+
+
+
