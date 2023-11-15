@@ -30,8 +30,8 @@ const Home = () => {
       <Feature />
       <Working />
       <Owner />
-      <Reviews />
-      <Service />
+      {/*<Reviews />*/}
+      {/*<Service />*/}
       <Quote />
       {/*<Team />*/}
     </>

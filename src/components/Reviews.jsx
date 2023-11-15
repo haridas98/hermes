@@ -17,7 +17,6 @@ const Reviews = () => {
           data-wow-delay="0.1s"
         >
           <div className="testimonial-item p-4 my-5">
-            <i className="fa fa-quote-right fa-3x text-light position-absolute top-0 end-0 mt-n3 me-4" />
             <div className="d-flex align-items-end mb-4">
               <img
                 className="img-fluid flex-shrink-0"
