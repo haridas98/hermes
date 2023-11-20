@@ -283,7 +283,7 @@
 }
 
 .service-item:hover img,
-.team-item:hover img, feature-img:hover img {
+.team-item:hover img, feature-img:hover {
     transform: scale(1.1);
 }
 
