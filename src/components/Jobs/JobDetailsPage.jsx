@@ -1,13 +1,13 @@
-import React from "react";
+import React, { useRef } from "react";
 import jobs from "../json/jobs.json";
 import { Link, useParams } from "react-router-dom";
 import Quote from "../Quote/Quote";
 import Carousel from "react-bootstrap/Carousel";
 
 function JobDetailsPage() {
-  const { id } = useParams(); // Получаем параметр id из URL
+  const { id } = useParams();
+  const quoteRef = useRef(null);
 
-  // Используем id для получения деталей работы из массива jobs.jobDescription
   const job = jobs.jobDescription[id];
 
   return (
@@ -39,7 +39,11 @@ function JobDetailsPage() {
                 </ul>
               </div>
               <div>
-                <Link to="/quote" className="btn btn-primary py-3 px-5">
+                <Link
+                  to={{ pathname: window.location.pathname, hash: "#quote" }}
+                  className="btn btn-primary py-3 px-5"
+                  onClick={() => quoteRef.current.scrollIntoView()}
+                >
                   Explore More
                 </Link>
               </div>
@@ -54,10 +58,9 @@ function JobDetailsPage() {
               <div className=" h-100">
                 <Carousel fade nextIcon={null} prevIcon={null} slide={true}>
                   {job.img.map((img, index) => (
-                    <Carousel.Item>
+                    <Carousel.Item key={index}>
                       <img
                         src={img}
-                        key={index}
                         className="carousel-image"
                         alt={job.title}
                       />
@@ -69,7 +72,9 @@ function JobDetailsPage() {
           </div>
         </div>
       </div>
-      <Quote />
+      <div id="quote" ref={quoteRef}>
+        <Quote />
+      </div>
     </>
   );
 }

@@ -32,16 +32,16 @@ const Owner = () => {
                   </p>
                 </div>
               </div>
-              <div className="d-flex mb-0 wow fadeInUp" data-wow-delay="0.7s">
-                <i className="fa fa-headphones text-primary fa-3x flex-shrink-0" />
-                <div className="ms-4">
-                  <h5>24/7 Telephone Support</h5>
-                  <p className="mb-0">
-                    Experienced managers of the company will be in touch with
-                    you around the clock
-                  </p>
-                </div>
-              </div>
+              {/*<div className="d-flex mb-0 wow fadeInUp" data-wow-delay="0.7s">*/}
+              {/*  <i className="fa fa-headphones text-primary fa-3x flex-shrink-0" />*/}
+              {/*  <div className="ms-4">*/}
+              {/*    <h5>24/7 Telephone Support</h5>*/}
+              {/*    <p className="mb-0">*/}
+              {/*      Experienced managers of the company will be in touch with*/}
+              {/*      you around the clock*/}
+              {/*    </p>*/}
+              {/*  </div>*/}
+              {/*</div>*/}
             </div>
             <div
               className="col-lg-6 pe-lg-0 wow fadeInRight"

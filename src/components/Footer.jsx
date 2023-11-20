@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -16,58 +17,62 @@ const Footer = () => {
               {/*                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>*/}
               <p className="mb-2">
                 <i className="fa fa-phone-alt me-3" />
-                <a href="tel:+14044340075">+1 404 4340075</a>
+                <Link to="tel:+14044340075">+1 404 4340075</Link>
               </p>
               <p className="mb-2">
                 <i className="fa fa-envelope me-3" />
                 HermesExpressGA@gmail.com
               </p>
               <div className="d-flex pt-2">
-                <a className="btn btn-outline-light btn-social" href="#">
+                <Link className="btn btn-outline-light btn-social" to="#">
                   <i className="fab fa-twitter" />
-                </a>
-                <a className="btn btn-outline-light btn-social" href="#">
+                </Link>
+                <Link className="btn btn-outline-light btn-social" to="#">
                   <i className="fab fa-facebook-f" />
-                </a>
-                <a className="btn btn-outline-light btn-social" href="#">
+                </Link>
+                <Link className="btn btn-outline-light btn-social" to="#">
                   <i className="fab fa-youtube" />
-                </a>
-                <a className="btn btn-outline-light btn-social" href="#">
+                </Link>
+                <Link className="btn btn-outline-light btn-social" to="#">
                   <i className="fab fa-linkedin-in" />
-                </a>
+                </Link>
               </div>
             </div>
             {/*                <div class="col-lg-3 col-md-6">*/}
             {/*                    <h4 class="text-light mb-4">Services</h4>*/}
-            {/*                    <a class="btn btn-link" href="#">Air Freight</a>*/}
-            {/*                    <a class="btn btn-link" href="#">Sea Freight</a>*/}
-            {/*                    <a class="btn btn-link" href="#">Road Freight</a>*/}
-            {/*                    <a class="btn btn-link" href="#">Logistic Solutions</a>*/}
-            {/*                    <a class="btn btn-link" href="#">Industry solutions</a>*/}
+            {/*                    <Link class="btn btn-link" to="#">Air Freight</a>*/}
+            {/*                    <Link class="btn btn-link" to="#">Sea Freight</a>*/}
+            {/*                    <Link class="btn btn-link" to="#">Road Freight</a>*/}
+            {/*                    <Link class="btn btn-link" to="#">Logistic Solutions</a>*/}
+            {/*                    <Link class="btn btn-link" to="#">Industry solutions</a>*/}
             {/*                </div>*/}
             <div className="col-lg-3 col-md-6">
               <h4 className="text-light mb-4">Quick Links</h4>
-              <a className="btn btn-link" href="#carousel">
+              <Link className="btn btn-link" to="/">
                 Home
-              </a>
-              <a className="btn btn-link" href="#about">
+              </Link>
+              <Link className="btn btn-link" to="/about">
                 About Us
-              </a>
-              <a className="btn btn-link" href="#service">
-                Our Services
-              </a>
-              <a className="btn btn-link" href="#working">
+              </Link>
+              <Link className="btn btn-link" to="/#price">
+                Pricing Plan
+              </Link>
+              <Link className="btn btn-link" to="/#price">
                 Working
-              </a>
-              <a className="btn btn-link" href="#owner">
-                Owners
-              </a>
-              <a className="btn btn-link" href="#testimonial">
-                Reviews
-              </a>
-              <a className="btn btn-link" href="#quote">
+              </Link>
+              <Link className="btn btn-link" to="/job/0">
+                Solo
+              </Link>
+              <Link className="btn btn-link" to="/job/1">
+                Team
+              </Link>
+              <Link className="btn btn-link" to="/job/2">
+                Owner
+              </Link>
+
+              <Link className="btn btn-link" to="/#quote">
                 Contact Us
-              </a>
+              </Link>
             </div>
             {/*                <div class="col-lg-3 col-md-6">*/}
             {/*                    <h4 class="text-light mb-4">Newsletter</h4>*/}
@@ -84,16 +89,16 @@ const Footer = () => {
             <div className="row">
               <div className="col-md-6 text-center text-md-start mb-3 mb-md-0">
                 ©{" "}
-                <a className="border-bottom" href="#">
+                <Link className="border-bottom" to="#">
                   Hermes Express
-                </a>
+                </Link>
                 , All Right Reserved.
               </div>
               <div className="col-md-6 text-center text-md-end">
                 Designed By{" "}
-                <a className="border-bottom" href="https://vk.com/haridas1998">
+                <Link className="border-bottom" to="https://vk.com/haridas1998">
                   GauraService
-                </a>
+                </Link>
               </div>
             </div>
           </div>

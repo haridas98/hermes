@@ -86,7 +86,6 @@ function Pricing() {
       {/* Pricing End */}
 
       {/* Render JobDetailsPage if a job is selected */}
-      {selectedJobIndex && <JobDetailsPage job={selectedJobIndex} />}
     </>
   );
 }

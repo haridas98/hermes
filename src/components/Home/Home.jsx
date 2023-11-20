@@ -8,7 +8,7 @@ import Owner from "../Owner";
 import Quote from "../Quote/Quote";
 import Working from "../Working";
 import { useLocation } from "react-router-dom";
-import Reviews from "../Reviews";
+import Reviews from "../Reviews/Reviews";
 
 const Home = () => {
   const location = useLocation();
@@ -30,8 +30,8 @@ const Home = () => {
       <Feature />
       <Working />
       <Owner />
-      {/*<Reviews />*/}
-      {/*<Service />*/}
+      <Reviews />
+      <Service />
       <Quote />
       {/*<Team />*/}
     </>

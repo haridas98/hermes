@@ -1,44 +1,78 @@
 {
+  "reviews": [
+    {
+      "id": "1",
+      "name": "John Smith",
+      "img": "../../img/reviews/review-1.jpg",
+      "role": "Truck Driver",
+      "comment": "Life on the Road: As a truck driver, I am the captain of my own ship. I navigate the highways, delivering goods across the country. From the breathtaking scenery to the sense of freedom, every day is an adventure. Join me on this journey and experience the thrill of the open road."
+    },
+    {
+      "name": "Jennifer Adams",
+      "img": "../../img/reviews/review-2.jpg",
+      "role": "Dispatcher",
+      "comment": "Behind the Scenes: As a dispatcher, I am the orchestrator of logistics. I ensure that deliveries are coordinated seamlessly, optimizing routes and schedules. From managing driver assignments to troubleshooting, I keep the operation running smoothly. Join our team and be part of the backbone that keeps goods moving."
+    },
+    {
+      "name": "Emily Johnson",
+      "img": "../../img/reviews/review-3.jpg",
+      "role": "Logistic Manager",
+      "comment":"Mastering Efficiency: As a logistics manager, I oversee the entire supply chain. From coordinating shipments to optimizing warehouse operations, I ensure that goods are delivered on time and within budget. Join me in this dynamic role and make a significant impact on the success of our operations."
+    },
+    {
+      "name": "Michael Brown",
+      "img": "../../img/reviews/review-4.jpg",
+      "role": "IT specialist",
+      "comment":"Driving Innovation: As a technical specialist, I am responsible for maintaining and repairing the fleet of trucks. From diagnosing mechanical issues to implementing new technologies, I ensure that our vehicles are safe and efficient. Join our team and be at the forefront of technological advancements in the trucking industry."
+    },
+    {
+      "name": "Sarah Davis",
+      "img": "../../img/reviews/review-5.jpg",
+      "role": "Recruiter",
+      "comment": "Building the Dream Team: As a recruiter, I am on a mission to find talented individuals who are passionate about trucking. From conducting interviews to evaluating qualifications, I connect skilled drivers with rewarding opportunities. Join me in shaping the future of our team and embark on a fulfilling career in the trucking industry."
+    }
+  ],
+
   "whyUs": [
     {
       "title": "24/7 Support",
       "description": "Our dispatch is not only capable of answering calls and making updates, they are well-trained and able to solve all uncommon situations and make proper decisions.",
-      "img": "../../img/carousel-",
+      "img": "../../img/service/24h.svg",
       "readMore": "#",
       "applyNow": "#quote"
     },
     {
       "title": "Monthly Bonuses",
       "description": "We award monthly bonuses to drivers who perform exceptionally well. If you work hard and avoid violations, you could be among the top five drivers and receive a bonus.",
-      "img": "../../img/carousel-",
+      "img": "../../img/service/bonus.svg",
       "readMore": "#",
       "applyNow": "#quote"
     },
     {
       "title": "Personal Dispatcher",
       "description": " After signing up, you’ll fill out a questionnaire to determine your drive style. Based on your preferences, we assign a dispatcher who specializes in the type of loads you prefer.",
-      "img": "../../img/carousel-",
+      "img": "../../img/service/dispatcher.svg",
       "readMore": "#",
       "applyNow": "#quote"
     },
     {
       "title": "Weekly Deposit",
       "description": "We make weekly deposits. You can reach our accounting department to know the amount of your upcoming paycheck and which loads will be paid. A detailed report is sent weekly via email.",
-      "img": "../../img/carousel-",
+      "img": "../../img/service/weekly.svg",
       "readMore": "#",
       "applyNow": "#quote"
     },
     {
       "title": "Absolute Transparency",
-      "description": "One of our main principles is honesty. You will receive all rate confirmations directly from the broker, ensuring transparency in all operations. This includes the broker’s name, phone number, and the rate of the load.",
-      "img": "../../img/carousel-",
+      "description": "One of our main principles is honesty. You'll receive all rate confirmations directly from the broker, ensuring transparency in all operations. This includes the broker’s name, phone number, and the rate of the load.",
+      "img": "../../img/service/clear.svg",
       "readMore": "#",
       "applyNow": "#quote"
     },
     {
       "title": "Flexible Schedule",
-      "description": "6.We value work-life balance. Our flexible scheduling accommodates your personal commitments, ensuring operational efficiency while respecting your personal time and well-being.",
-      "img": "../../img/carousel-",
+      "description": "We value work-life balance. Our flexible scheduling accommodates your personal commitments, ensuring operational efficiency while respecting your personal time and well-being.",
+      "img": "../../img/service/distance.svg",
       "readMore": "#",
       "applyNow": "#quote"
     }
@@ -105,6 +139,7 @@
   ],
   "jobDescription":[
     {
+      "url": "solo",
       "title": "SOLO Truck Driver",
       "imgSlider": "../../img/job/carousel-",
       "description": "SOLO truck driver job available. Weekly earnings up to $8000. Minimum 6 months driving experience required. Age 21 and above. Location within 100 miles radius from Alpharetta, GA. ",
@@ -139,10 +174,11 @@
       ]
     },
     {
+      "url": "team",
       "title": "TEAM Truck Driving",
       "imgSlider": "../../img/job/carousel-",
       "description": "TEAM truck driver position open. Average weekly gross: $12000. Start pay: 30% of gross. Minimum 6 months driving experience, age 21+. Home weekends optional. Communication skills and smartphone with scanner app necessary.",
-      "readMore": "/job/2",
+      "readMore": "/job/1",
       "applyNow": "#quote",
       "img": [
         "../../img/job/team/job-1.jpg",
@@ -174,10 +210,11 @@
       ]
     },
     {
+      "url": "owner ",
       "title": "Owner Operators",
       "imgSlider": "../../img/job/carousel-",
       "description": "Owner Operators position open at Hermes Express Inc. Earn up to $8000 weekly gross revenue. We pay 88% of gross revenue. Competitive insurance rates, fuel cards, and trailer rental provided. No forced dispatch, no-touch freight. Safety bonuses, weekly settlements. Must be 21+, with clean MVR and 2 years experience.",
-      "readMore": "/job/3",
+      "readMore": "/job/2",
       "applyNow": "#quote",
       "img": [
         "../../img/job/owner/job-1.jpg",

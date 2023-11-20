@@ -11,9 +11,10 @@ const CustomNavbar = () => {
 
   const navItems = [
     { to: "/", text: "Home" },
-    { to: "/about", text: "About" },
+    { to: "/about", text: "About Us" },
     { to: "/#price", text: "Pricing plan" },
     { to: "/#quote", text: "Contact Us" },
+    { to: "/blog", text: "Blog" },
   ];
 
   const dropdownItems = [
@@ -37,6 +38,8 @@ const CustomNavbar = () => {
           to="/"
           className="bg-primary d-flex align-items-center px-4 px-lg-5"
         >
+          {" "}
+          <img src="/img/horse.svg" alt="" />
           <h2 className="mb-2 text-white">Hermes Express</h2>
         </Navbar.Brand>
         <Navbar.Toggle

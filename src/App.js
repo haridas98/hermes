@@ -4,12 +4,14 @@ import { Routes, Route } from "react-router-dom";
 
 import "./styles/css/bootstrap.min.css";
 import "./styles/css/style.css";
+
 import Footer from "./components/Footer";
 import Home from "./components/Home/Home";
 import JobDetailsPage from "./components/Jobs/JobDetailsPage";
 import CustomNavbar from "./components/CustomNavbar";
 import AboutFull from "./components/About/AboutFull";
 import ScrollToTop from "./components/ScrollToTop";
+import Blog from "./components/Blog/Blog";
 
 function App() {
   return (
@@ -25,19 +27,16 @@ function App() {
       <link
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
         rel="stylesheet"
-      />
-      <link
-        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.min.js"
-        rel="stylesheet"
-      />
+      />{" "}
       {/*<Spinner />*/}
       <CustomNavbar />
       <ScrollToTop />
       <Routes>
-        <Route exact path="/" element={<Home />} />
+        <Route path="/" element={<Home />} />
 
         <Route path="/about" element={<AboutFull />} />
         <Route path="/job/:id" element={<JobDetailsPage />} />
+        <Route path="/blog" element={<Blog />} />
       </Routes>
       <Footer />
     </>

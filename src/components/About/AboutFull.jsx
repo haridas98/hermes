@@ -7,7 +7,7 @@ function AboutFull() {
   return (
     <div>
       <About />
-      <AboutAdd />
+      {/*<AboutAdd />*/}
       <Quote />
     </div>
   );

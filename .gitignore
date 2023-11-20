@@ -23,3 +23,4 @@ yarn-debug.log*
 yarn-error.log*
 /logistica-1.0.0/
 /.idea
+/src/styles/scss/bootstrap/
