@@ -54,7 +54,7 @@ const QuoteForm = () => {
     var xhr = new XMLHttpRequest();
 
     // Устанавливаем метод и адрес для отправки данных
-    xhr.open("POST", "/save-form-data.php", true);
+    xhr.open("POST", "save-form-data.php", true);
     xhr.setRequestHeader("Content-Type", "application/json");
 
     // Отправляем данные формы на сервер
