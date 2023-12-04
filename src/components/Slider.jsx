@@ -35,7 +35,7 @@ const Slider = () => {
                 <div className="owl-carousel-item position-relative">
                   <div
                     className="d-flex"
-                    style={{ height: "90vh" }} // Set the height to fill the entire screen
+                    style={{ height: "100vh" }} // Set the height to fill the entire screen
                   >
                     <img
                       className="img-fluid"
@@ -53,8 +53,11 @@ const Slider = () => {
                     style={{ background: "#0A0101BB" }}
                   >
                     <div className="container">
-                      <div className="row justify-content-start">
-                        <div className="col-10 col-lg-8">
+                      <div className="row d-flex justify-content-start align-content-between">
+                        <div
+                          className=" align-content-between col-10 col-lg-8"
+                          style={{ height: "350px" }}
+                        >
                           <h5 className="text-white text-uppercase mb-3 ">
                             Hermes Express
                           </h5>

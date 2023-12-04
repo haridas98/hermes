@@ -26,14 +26,12 @@ const Home = () => {
       <Slider />
       <About />
       <Pricing />
-      {/*<Fact />*/}
       <Feature />
       <Working />
       <Owner />
       <Reviews />
       <Service />
       <Quote />
-      {/*<Team />*/}
     </>
   );
 };

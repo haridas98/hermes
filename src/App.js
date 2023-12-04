@@ -8,7 +8,7 @@ import "./styles/css/style.css";
 import Footer from "./components/Footer";
 import Home from "./components/Home/Home";
 import JobDetailsPage from "./components/Jobs/JobDetailsPage";
-import CustomNavbar from "./components/CustomNavbar";
+import CustomNavbar from "./components/Navbar/CustomNavbar";
 import AboutFull from "./components/About/AboutFull";
 import ScrollToTop from "./components/ScrollToTop";
 import Blog from "./components/Blog/Blog";
