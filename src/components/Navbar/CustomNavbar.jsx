@@ -1,22 +1,32 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import { Navbar, Nav, NavDropdown, Container } from "react-bootstrap";
+import {
+  Navbar,
+  Nav,
+  NavDropdown,
+  Container,
+  NavbarToggle,
+} from "react-bootstrap";
 import "./Navbar.scss";
 
 const CustomNavbar = () => {
+  const [activeItem, setActiveItem] = useState("");
   const [expanded, setExpanded] = useState(false);
   const [prevScrollPos, setPrevScrollPos] = useState(0);
 
   useEffect(() => {
+    const SCROLL_SHOW_DISTANCE = 50;
     let prevScrollPos = window.scrollY;
     let visible = true;
 
     const handleScroll = () => {
       const currentScrollPos = window.scrollY;
 
-      if (prevScrollPos > currentScrollPos) {
+      const scrolledDistance = prevScrollPos - currentScrollPos;
+
+      if (scrolledDistance > SCROLL_SHOW_DISTANCE) {
         visible = true;
-      } else {
+      } else if (scrolledDistance < -SCROLL_SHOW_DISTANCE) {
         visible = false;
       }
 
@@ -47,8 +57,9 @@ const CustomNavbar = () => {
     };
   }, []);
 
-  const handleNavItemClick = () => {
+  const handleNavItemClick = (item) => {
     setExpanded(false);
+    setActiveItem(item);
   };
 
   const navItems = [
@@ -100,13 +111,16 @@ const CustomNavbar = () => {
                   as={item.to ? Link : undefined}
                   to={item.to}
                   href={item.href}
-                  className="nav-link"
-                  onClick={handleNavItemClick}
+                  className={`nav-link ${
+                    activeItem === item.text ? "active" : ""
+                  }`}
+                  onClick={() => handleNavItemClick(item.text)}
                 >
                   {item.text}
                 </Nav.Link>
               ))}
               <NavDropdown title="Working" id="working-dropdown">
+                <hr className="dropdown-divider" />
                 {dropdownItems.map((item, index) => (
                   <NavDropdown.Item
                     key={index}
@@ -118,8 +132,9 @@ const CustomNavbar = () => {
                   </NavDropdown.Item>
                 ))}
               </NavDropdown>
+              <hr className="dropdown-divider" />
               <div className="socials d-flex justify-content-center align-items-center ">
-                <div className="px-4" style={{ fontSize: "1.5rem" }}>
+                <div className="" style={{ fontSize: "1.5rem" }}>
                   <a
                     href="tel:+14044340075"
                     className="fa-solid  fa-phone-volume mx-1"

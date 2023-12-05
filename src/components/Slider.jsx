@@ -29,7 +29,7 @@ const Slider = () => {
         style={{ margin: "0 auto" }} // Set the max width and center the slider
       >
         <div className="owl-carousel header-carousel position-relative mb-5">
-          <Carousel fade nextIcon={null} prevIcon={null}>
+          <Carousel fade nextIcon={null} prevIcon={null} interval={10000}>
             {jobs.jobDescription.map((job, index) => (
               <Carousel.Item key={index}>
                 <div className="owl-carousel-item position-relative">
@@ -53,35 +53,37 @@ const Slider = () => {
                     style={{ background: "#0A0101BB" }}
                   >
                     <div className="container">
-                      <div className="row d-flex justify-content-start align-content-between">
-                        <div
-                          className=" align-content-between col-10 col-lg-8"
-                          style={{ height: "350px" }}
-                        >
-                          <h5 className="text-white text-uppercase mb-3 ">
-                            Hermes Express
-                          </h5>
-                          <h1 className="display-3 text-white mb-4">
-                            {removeLastWord(job.title).modifiedText + ` `}
-                            <span className="text-primary">
-                              {removeLastWord(job.title).lastWord}
-                            </span>
-                          </h1>
+                      <div className="row">
+                        <div className="  d-flex flex-column justify-content-between col-10 col-lg-8">
+                          <div>
+                            <h5 className="text-white text-uppercase mb-3 ">
+                              Hermes Express
+                            </h5>
+                            <h1 className="display-3 text-white mb-4">
+                              {removeLastWord(job.title).modifiedText + ` `}
+                              <span className="text-primary">
+                                {removeLastWord(job.title).lastWord}
+                              </span>
+                            </h1>
+                          </div>
+
                           <p className="fs-5 fw-medium text-white mb-4 pb-2">
                             {job.description}
                           </p>
-                          <Link
-                            to={job.readMore}
-                            className="btn btn-primary py-md-3 px-md-5 me-3 "
-                          >
-                            Read More
-                          </Link>
-                          <Link
-                            to={job.applyNow}
-                            className="btn btn-secondary py-md-3 px-md-5"
-                          >
-                            Apply Now
-                          </Link>
+                          <div>
+                            <Link
+                              to={job.readMore}
+                              className="btn btn-primary py-md-3 px-md-5 me-3 "
+                            >
+                              Read More
+                            </Link>
+                            <Link
+                              to={job.applyNow}
+                              className="btn btn-secondary py-md-3 px-md-5"
+                            >
+                              Apply Now
+                            </Link>
+                          </div>
                         </div>
                       </div>
                     </div>

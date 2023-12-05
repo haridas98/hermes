@@ -6,6 +6,16 @@
     --dark: #060315;
 }
 
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+
+
+
+
 .fw-medium {
     font-weight: 600 !important;
 }
